@@ -5,3 +5,4 @@ Laravel 5.7 - Start Learning 21112018
 - Instalasi & Konfigurasi
 - Arsitektur Laravel
 - Route & Controller
+- Database
