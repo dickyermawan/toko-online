@@ -8,3 +8,4 @@ Laravel 5.7 - Start Learning 21112018
 - Database
 - Model & Eloquent
     - Model
+    - Eloquent

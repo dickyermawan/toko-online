@@ -4,8 +4,14 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
+use Illuminate\Database\Eloquent\SoftDeletes;
+
+
 class Category extends Model
 {
+    use SoftDeletes;
+
+    
     // untuk custom nama model terhadap tabel di db
     protected $table = 'categories';
 
