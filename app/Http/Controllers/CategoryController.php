@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Redirect;
+use App\Category;
 
 class CategoryController extends Controller
 {
@@ -27,8 +28,9 @@ class CategoryController extends Controller
      */
     public function create()
     {
-        //
+        
     }
+
 
     /**
      * Store a newly created resource in storage.
@@ -38,7 +40,12 @@ class CategoryController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        // mass assignment
+        // $kategori = Category::create($request->all());
+
+        // untuk menghindari injek pada mass-assignment, set field lalu save
+        // $user->role = 'CUSTOMER';
+        // $user->save();
     }
 
     /**
